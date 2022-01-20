@@ -2,10 +2,21 @@ import React from "react";
 
 import ReactDOM from "react-dom";
 
-function HelloWorld() {
+import "./index.css";
 
-	return <h1>Hello, world!</h1>; //JSX element -->h1
+function App() {
 
+	return (
+
+		<div className="app">
+
+			<h1 className="app-header"> May Amazing ToDo-List App</h1>
+
+			<p>The most simple and amazing toto-list React App</p>
+
+		</div>
+
+	);
 }
 
-ReactDOM.render(<HelloWorld></HelloWorld>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
