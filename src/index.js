@@ -10,9 +10,13 @@ function App() {
 
 		<div className="app">
 
-			<h1 className="app-header"> May Amazing ToDo-List App</h1>
+			<header className="app-header">
 
-			<p>The most simple and amazing toto-list React App</p>
+				<h1>My Amazing ToDo-List App</h1>
+
+				<p>The most simple and amazing todo-list React App</p>
+
+			</header>
 
 		</div>
 
