@@ -17,7 +17,7 @@ function TasksList() {
 		"Follow Zuitt Coding Bootcamps ph on Facebook."
 	];
 	return (
-		<>
+		<div>
 			<input className="task-input"/>	
 			<ul>
 				{taskItemsList.map((task, index) => {
@@ -25,7 +25,7 @@ function TasksList() {
 					return <Task key={index} taskName={task}/>
 				})}
 			</ul>
-		</>
+		</div>
 	);
 }
 
