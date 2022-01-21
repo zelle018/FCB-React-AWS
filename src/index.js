@@ -17,12 +17,15 @@ function TasksList() {
 		"Follow Zuitt Coding Bootcamps ph on Facebook."
 	];
 	return (
-		<ul>
-			{taskItemsList.map((task, index) => {
-				console.log(task, index);
-				return <Task key={index} taskName={task}/>
-			})}
-		</ul>
+		<>
+			<input className="task-input"/>	
+			<ul>
+				{taskItemsList.map((task, index) => {
+					console.log(task, index);
+					return <Task key={index} taskName={task}/>
+				})}
+			</ul>
+		</>
 	);
 }
 
